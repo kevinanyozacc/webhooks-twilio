@@ -1,0 +1,15 @@
+{
+  "name": "passbase-webhoook-server-example",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+      "express": "latest",
+      "body-parser": "latest"
+  },
+  "author": "Van Be Hai Nguyen",
+  "description": "Learn Git Webhook Server"
+}
+
