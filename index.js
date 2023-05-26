@@ -14,7 +14,8 @@ app.get( '/git', function ( req, res ) {
 
 app.get('/whatsapp-webhookin', function(req, res) {
     let data = req.body;
-    console.log(data);
+    let date = new Date();
+    console.log('Recibido', date);
     res.send('Received!');
 })
 
